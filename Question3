@@ -1,0 +1,8 @@
+# Assignment_3
+float width=4.5f;
+	float height=7.9f;
+	float area=width*height;
+	
+	
+	System.out.println("area of rectangle= " + area);
+	
