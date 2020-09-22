@@ -1,0 +1,6 @@
+double lt,gln;
+		gln=15;
+		lt= gln*1/0.26417;
+		//gln=lt*0.26417;
+		
+		System.out.println((gln) + (" gallons = ") + (lt) + (" lt."));
