@@ -1,0 +1,11 @@
+# Assignment_3
+public static void main(String[] args) {
+		int drinkMg=500;
+		double mgOfCaffeinOfPercent=0.001;
+		int overdose=10;
+		
+		int drinks=(int) ((int)overdose/((int)drinkMg*mgOfCaffeinOfPercent));
+		
+		System.out.println("Number of miligrams in drink: " + drinkMg);
+		System.out.println("It would take about " + drinks + " drinks for a lethal dose");
+		
