@@ -1,0 +1,12 @@
+# Assignment_3
+String yourName;
+		yourName="memo";
+		
+		final int birthYear;
+		birthYear=1980;
+		int thisYear=2020;
+		int age;
+		age=thisYear-birthYear;
+		
+		System.out.println("\" Hello " + yourName + "! " + "your age is " + age + ":)");
+		
