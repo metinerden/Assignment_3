@@ -1,0 +1,23 @@
+# Assignment_3
+
+				int amount, quarters, dimes, nickels, pennies,exchange;
+
+
+				 amount=95;
+				 exchange= 100-amount;
+				 
+				 quarters=exchange/25;
+				 exchange=exchange%25;
+				 
+				 dimes=exchange/10;
+				 exchange=exchange%10;
+				 
+				 nickels=exchange/5;
+				 exchange=exchange%5;
+				 
+				
+ System.out.println("Price in cents : " + amount);
+				 
+System.out.println("Your change is " + quarters + " quarters," + dimes + " dimes, and " + nickels + " nickels");
+		
+		
